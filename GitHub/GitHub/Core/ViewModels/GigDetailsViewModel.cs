@@ -1,0 +1,12 @@
+﻿
+using GitHub.Core.Models;
+
+namespace GitHub.Core.ViewModels
+{
+    public class GigDetailsViewModel
+    {
+        public Gig Gig { get; set; } 
+        public bool IsFollowing { get; set; }
+        public bool IsAttending { get; set; }
+    }
+}

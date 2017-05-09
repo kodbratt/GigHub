@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GigHub", "GitHub\GigHub.csproj", "{6FBE973F-6DD6-4000-AB71-8B3ED62386EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GigHub.Tests", "GitHub.Tests\GigHub.Tests.csproj", "{04321C90-B8C2-499E-8C80-DD450A17163C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F23391E1-74F7-4250-A98E-1496B40F608B}"
+	ProjectSection(SolutionItems) = preProject
+		WebEssentials2015-Settings.json = WebEssentials2015-Settings.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GigHub.IntergrationTests", "GigHubIntergrationTests\GigHub.IntergrationTests.csproj", "{22CB4D21-FDD9-4C50-8A92-9090F32C4367}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FBE973F-6DD6-4000-AB71-8B3ED62386EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FBE973F-6DD6-4000-AB71-8B3ED62386EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FBE973F-6DD6-4000-AB71-8B3ED62386EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FBE973F-6DD6-4000-AB71-8B3ED62386EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04321C90-B8C2-499E-8C80-DD450A17163C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04321C90-B8C2-499E-8C80-DD450A17163C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04321C90-B8C2-499E-8C80-DD450A17163C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04321C90-B8C2-499E-8C80-DD450A17163C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22CB4D21-FDD9-4C50-8A92-9090F32C4367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22CB4D21-FDD9-4C50-8A92-9090F32C4367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22CB4D21-FDD9-4C50-8A92-9090F32C4367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22CB4D21-FDD9-4C50-8A92-9090F32C4367}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
